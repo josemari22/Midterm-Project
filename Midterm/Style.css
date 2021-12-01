@@ -1,0 +1,65 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(background.jpg);
+	background-size: cover;
+	background-position: no-repeat;
+	font-family: sans-serif;
+}
+.header
+{
+	height: 100vh;
+
+}
+.navbar-style
+{
+	box-shadow: 0 5px 10px lightgreen;
+	text-transform: uppercase;
+}
+.logo
+{
+	height: 80px;
+	padding: 2px 10px;
+}
+.icon-bar
+{
+	background: darkorange;
+	height: 100px;
+}
+ li a 
+{
+	color: lightgreen;
+	height: 50px;
+	border-radius: 45px;
+}
+.big-text
+{
+	font-size: 52px;
+	margin: 20px 0;
+	color: lime;
+}
+a.btn
+{
+	 margin: 30px 10px;
+	 width: 150px;
+	 padding: 10px;
+	 border-radius: 20px;
+}
+a.btn-first
+{
+	background-color: darkorange;
+	color: #fff; 
+}
+a.btn-Second
+{
+	background-color: darkorange;
+	color: #fff; 
+}
+a.btn:hover
+{
+	background-color: green;
+	border: none;
+	color: #fff;
+	box-shadow: 5px 5px 10px #999;
+	transition: 0.3s;
+}
